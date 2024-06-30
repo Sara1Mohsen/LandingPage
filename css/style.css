@@ -1,0 +1,153 @@
+*{
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width : 768px ){
+    .container{
+        width: 750px;
+    }
+}
+@media (min-width : 992px ){    
+    .container{
+        width: 970px;
+    }
+}
+@media (min-width : 1200px ){
+    .container{
+        width: 1170px;
+    }
+}
+.header{
+    padding: 20px;
+    background-color: #fefaf0;
+    position: sticky;
+}
+h1{
+    padding: auto 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.header p{
+    position: absolute;
+    top:10px;
+    right: 80px;
+    padding: 20px;
+}
+.main {
+    display: flex;
+    margin:  auto 90px;
+    padding: 25px 0 30px 25px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+}
+.card{
+    justify-content: space-around;
+    display: block;
+}
+.card img{
+    width: 90%;
+}
+.card h3 , 
+.card p{
+    padding: 10px;
+    width:300px;
+    text-align: center;
+    line-height: 1.5em;
+
+}
+.header a {
+    color: black;
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    justify-content: space-around;
+    padding: 5px;
+}
+.header a:hover{
+    background-color: rgb(195, 180, 17);
+    cursor: pointer;
+}
+.bar{
+    padding: auto 50%;
+    margin: auto;
+}
+.main .bar a {
+    color: black;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
+.main .bar a:first-child{
+    padding-right: 2px;
+}
+.main .bar a:last-child{
+    padding-left: 2px;
+}
+.main .bar a:hover{
+    color: white;
+    background-color:black ;
+}
+h2{
+    display:flex ;
+    justify-content: center;
+    padding: 20px;
+}
+.chef{
+    display: block;
+    width: 800px;
+    height: 533px;
+    margin: auto;
+}
+.about{
+    width: 50%;
+    letter-spacing: .01em;
+    justify-content: center;
+    margin:  auto 25%;
+    padding: 25px;
+}
+h4,.about p{
+    justify-content: center;
+    margin-bottom: 15px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+.sidbar{
+
+    color: black;
+    font-weight: 800;
+    list-style: none;
+}
+.last{
+    padding: 30px 30px 0 30px;
+}
+.last h3{
+    padding: 0 20px ;
+}
+.last p{
+    padding: 10px;
+    width: 80%;
+    height: 50px;
+}
+.last div img{
+    width: 30%;
+    padding-top: 15px;
+}
+.last div p{
+    display: inline;
+position: relative;
+    top: -45px;
+    font-weight: 500;
+    width: 100px;
+}
+
